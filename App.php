@@ -14,6 +14,7 @@ class App{
         }else{
             echo "Min from 17";
         }
+        echo '<br>';
         if($this->age < 17){
             echo "Min from 172222";
         } 
