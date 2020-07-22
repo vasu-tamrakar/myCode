@@ -59,4 +59,16 @@ class App
         $this->name = $name?$name:'N/a';
         $this->model = $model?$model:'N/a';
     }
+
+    public function setCar1($name=false,$model=false)
+    {
+        $this->name = $name?$name:'N/a';
+        $this->model = $model?$model:'N/a';
+    }
+    public function setCar2($name=false,$model=false)
+    {
+        $this->name = $name?$name:'N/a';
+        $this->model = $model?$model:'N/a';
+    }
+    
 }
