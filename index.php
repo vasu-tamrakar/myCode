@@ -6,7 +6,7 @@ $user->getUser();
 $user->getUser();
 $user->getUser();
 $e5q='Test';
-echo $test;
-echo 'Test';
-echo 'Test';
+echo $e5q;
+echo $e5q;
+echo $e5q;
 ?>
