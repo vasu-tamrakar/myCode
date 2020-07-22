@@ -45,6 +45,114 @@ class App
         }
         return array('first_name'=>$this->first_name, 'last_name'=>$this->last_name,'age'=>$this->age);
     }
+    public function getUser2(){
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        return array('first_name'=>$this->first_name, 'last_name'=>$this->last_name,'age'=>$this->age);
+    }
+    public function getUser3(){
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        return array('first_name'=>$this->first_name, 'last_name'=>$this->last_name,'age'=>$this->age);
+    }
+    public function getUser4(){
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        if($this->age >10){
+            echo 'age grether than 10';
+        }
+        return array('first_name'=>$this->first_name, 'last_name'=>$this->last_name,'age'=>$this->age);
+    }
 
     public function setUser($fname=false,$lname=false,$age=false)
     {
