@@ -13,6 +13,9 @@ class App{
             echo "Max from 17";
         }else{
             echo "Min from 17";
+        }
+        if($this->age < 17){
+            echo "Min from 172222";
         } 
     }
     public function setUser($fname=false,$lname=false){
