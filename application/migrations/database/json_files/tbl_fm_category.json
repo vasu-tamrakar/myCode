@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "parent_id": 0,
+    "category_name": "Food & Dining ",
+    "key_name": "Food & Dining ",
+    "status": "1",
+    "archive": 0,
+    "created": "2020-05-12 20:00:00",
+    "updated": "2020-05-12 20:00:00"
+  },
+  {
+    "id": 2,
+    "parent_id": 0,
+    "category_name": "Health care",
+    "key_name": "Health care",
+    "status": "1",
+    "archive": 0,
+    "created": "2020-05-12 20:00:00",
+    "updated": "2020-05-12 20:00:00"
+  },
+  {
+    "id": 3,
+    "parent_id": 0,
+    "category_name": "Travel",
+    "key_name": "Travel",
+    "status": "1",
+    "archive": 0,
+    "created": "2020-05-12 20:00:00",
+    "updated": "2020-05-12 20:00:00"
+  },
+  {
+    "id": 4,
+    "parent_id": 0,
+    "category_name": "Shopping",
+    "key_name": "Shopping",
+    "status": "1",
+    "archive": 0,
+    "created": "2020-05-12 20:00:00",
+    "updated": "2020-05-12 20:00:00"
+  },
+  {
+    "id": 5,
+    "parent_id": 0,
+    "category_name": "Auto & Transport",
+    "key_name": "Auto & Transport",
+    "status": "1",
+    "archive": 0,
+    "created": "2020-05-12 20:00:00",
+    "updated": "2020-05-12 20:00:00"
+  },
+  {
+    "id": 6,
+    "parent_id": 0,
+    "category_name": "Entertainment",
+    "key_name": "Entertainment",
+    "status": "1",
+    "archive": 0,
+    "created": "2020-05-12 20:00:00",
+    "updated": "2020-05-12 20:00:00"
+  },
+  {
+    "id": 7,
+    "parent_id": 0,
+    "category_name": "Bills & Utilities",
+    "key_name": "Bills & Utilities",
+    "status": "1",
+    "archive": 0,
+    "created": "2020-05-12 20:00:00",
+    "updated": "2020-05-12 20:00:00"
+  },
+  {
+    "id": 8,
+    "parent_id": 0,
+    "category_name": "Education",
+    "key_name": "Education",
+    "status": "1",
+    "archive": 0,
+    "created": "2020-05-12 20:00:00",
+    "updated": "2020-05-12 20:00:00"
+  },
+  {
+    "id": 9,
+    "parent_id": 0,
+    "category_name": "Insurance",
+    "key_name": "Insurance",
+    "status": "1",
+    "archive": 0,
+    "created": "2020-05-12 20:00:00",
+    "updated": "2020-05-12 20:00:00"
+  },
+  {
+    "id": 10,
+    "parent_id": 0,
+    "category_name": "Finance",
+    "key_name": "Finance",
+    "status": "1",
+    "archive": 0,
+    "created": "2020-05-12 20:00:00",
+    "updated": "2020-05-12 20:00:00"
+  },
+  {
+    "id": 11,
+    "parent_id": 0,
+    "category_name": "Miscellaneous",
+    "key_name": "Miscellaneous",
+    "status": "1",
+    "archive": 0,
+    "created": "2020-05-12 20:00:00",
+    "updated": "2020-05-12 20:00:00"
+  }
+ ]

@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "bank_name": "HDFC - Bank",
+      "bank_type": "1",
+      "status": "1",
+      "archive": 0,
+      "created": "2020-05-12 20:00:00",
+      "updated": "2020-05-12 20:00:00"
+    },
+    {
+        "id": 2,
+        "bank_name": "HDFC - Credit Card",
+        "bank_type": "2",
+        "status": "1",
+        "archive": 0,
+        "created": "2020-05-12 20:00:00",
+        "updated": "2020-05-12 20:00:00"
+    },
+    {
+        "id": 3,
+        "bank_name": "ICIC - Bank",
+        "bank_type": "1",
+        "status": "1",
+        "archive": 0,
+        "created": "2020-05-12 20:00:00",
+        "updated": "2020-05-12 20:00:00"
+    },
+    {
+      "id": 4,
+      "bank_name": "ICIC - Credit Card",
+      "bank_type": "2",
+      "status": "1",
+      "archive": 0,
+      "created": "2020-05-12 20:00:00",
+      "updated": "2020-05-12 20:00:00"
+    },
+    {
+      "id": 5,
+      "bank_name": "Axis - Bank",
+      "bank_type": "1",
+      "status": "1",
+      "archive": 0,
+      "created": "2020-05-12 20:00:00",
+      "updated": "2020-05-12 20:00:00"
+    },
+    {
+      "id": 6,
+      "bank_name": "Axis - Credit Card",
+      "bank_type": "2",
+      "status": "1",
+      "archive": 0,
+      "created": "2020-05-12 20:00:00",
+      "updated": "2020-05-12 20:00:00"
+    }
+   ]

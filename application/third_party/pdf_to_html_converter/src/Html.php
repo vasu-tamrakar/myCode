@@ -1,0 +1,115 @@
+<?php
+
+namespace Gufy\PdfToHtml;
+
+use DOMDocument;
+use DOMNode;
+use DOMXPath;
+use PHPHtmlParser\Dom;
+
+class Html extends Dom
+{
+    protected $contents, $total_pages, $current_page, $pdf_file, $locked = false;
+
+    protected $default_options = [
+        'singlePage' => true,
+        'noFrames'   => false,
+    ];
+
+    public function __construct($pdf_file, $options = [])
+    {
+        $options = array_merge($this->default_options, $options);
+
+        $this->getContents($pdf_file, $options);
+
+        return $this;
+    }
+
+    /**
+     * @param $pdf_file
+     * @param array $options
+     */
+    private function getContents($pdf_file, $options)
+    {
+        $this->locked = true;
+        $info = new Pdf($pdf_file);
+        $pdf = new Base($pdf_file, $options);
+        $pages = $info->getPages();
+
+        $random_dir = uniqid();
+        $outputDir = Config::get('pdftohtml.output', dirname(__FILE__).'/../output/'.$random_dir);
+        if (!file_exists($outputDir))
+            mkdir($outputDir, 0777, true);
+        $pdf->setOutputDirectory($outputDir);
+        $pdf->generate();
+        $fileinfo = pathinfo($pdf_file);
+        $base_path = $pdf->outputDir.'/'.$fileinfo['filename'];
+        $contents = [];
+        for ($i = 1; $i <= $pages; $i++) {
+            $content = file_get_contents($base_path.'-'.$i.'.html');
+            $content = str_replace("Â", "", $content);
+            if ($this->inlineCss()) {
+                $dom = new DOMDocument();
+                $dom->preserveWhiteSpace = false;
+                //$dom->loadHTML(mb_convert_encoding($content, 'HTML-ENTITIES', 'UTF-8'));
+
+                $dom->loadHtml(utf8_decode($content));
+
+                $xpath = new DOMXPath($dom);
+                foreach ($xpath->query('//comment()') as $comment) {
+                    $comment->parentNode->removeChild($comment);
+                }
+
+                // foreach ($xpath->query('//p') as $p => $paragraph) {
+                //
+                //     $trimmed_value = trim($paragraph->nodeValue);
+                //   //  if (empty($trimmed_value)) {
+                //     if (strlen($trimmed_value==2)) {
+                //
+                //       $paragraph->parentNode->removeChild($paragraph);
+                //     }  else {
+                //
+                //       break;
+                //     }
+                // }
+
+
+                $body = $xpath->query('//body')->item(0);
+                $content = $body instanceof DOMNode ? utf8_decode($dom->saveHTML($body)) : 'something failed';
+            }
+            file_put_contents($base_path.'-'.$i.'.html', $content);
+            $contents[ $i ] = file_get_contents($base_path.'-'.$i.'.html');
+        }
+        $this->contents = $contents;
+        $this->goToPage(1);
+    }
+
+    public function goToPage($page = 1)
+    {
+        if ($page > count($this->contents))
+            throw new \Exception("You're asking to go to page {$page} but max page of this document is ".count($this->contents));
+        $this->current_page = $page;
+
+        return $this->load($this->contents[ $page ]);
+    }
+
+    public function raw($page = 1)
+    {
+        return $this->contents[ $page ];
+    }
+
+    public function getTotalPages()
+    {
+        return count($this->contents);
+    }
+
+    public function getCurrentPage()
+    {
+        return $this->current_page;
+    }
+
+    public function inlineCss()
+    {
+        return Config::get('pdftohtml.inlineCss', true);
+    }
+}
