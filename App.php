@@ -32,5 +32,11 @@ class App{
         $this->first_name = ($fname)?$fname:'N/A';
         $this->last_name = ($lname)?$lname:'N/A'; 
     }
+
+    public function setUser1($fname=false,$lname=false, $age){
+        $this->first_name = ($fname)?$fname:'N/A';
+        $this->last_name = ($lname)?$lname:'N/A'; 
+        $this->age = ($age)?$age:'N/A';
+    }
 }
 ?>
