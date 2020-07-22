@@ -7,5 +7,6 @@ $user->getUser();
 $user->getUser();
 $e5q='Test';
 echo $e5q;
-
+echo $e5q;
+echo $e5q;
 ?>
