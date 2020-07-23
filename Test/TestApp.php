@@ -11,15 +11,15 @@ class TestApp extends TestCase
         $this->assertIsArray($user->getUser());
     }
 
-    public function testEmpty()
-    {
+    // public function testEmpty()
+    // {
 
-        $use2 = new App();
-        $use2->setUser('BLUE','LAL', 17); 
-        $age = $use2->getage2();
-        // $this->assertEmpty($age);
-        return $age;
-    }
+    //     $use2 = new App();
+    //     $use2->setUser('BLUE','LAL', 17); 
+    //     $age = $use2->getage2();
+    //     $this->assertEmpty(TestApp::$use2->getage2());
+    //     return $age;
+    // }
     
 
 }
