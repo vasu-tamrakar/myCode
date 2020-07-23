@@ -9,5 +9,9 @@ class TestApp extends TestCase
         $user = new App();
         $user->setUser('BLUE','LAL',60);
         $this->assertIsArray($user->getUser());
+
+        $user = new App();
+        $user->setUser('BLUE','LAL',17);
+        $this->assertEmpty($user->getUser2());
     }
 }
