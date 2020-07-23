@@ -1,5 +1,5 @@
 <?php
-require_once 'App.php';
+require_once '..\main\App.php';
 use PHPUnit\Framework\TestCase;
 class TestApp extends TestCase
 // class TestApp extends App
