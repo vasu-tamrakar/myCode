@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php"
+ colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="Example">
+            <directory>Test</directory>
+        </testsuite>
+    </testsuites>
+     <filter>
+		<whitelist processUncoveredFilesFromWhitelist="true">
+			<directory suffix=".php">main</directory>
+		</whitelist>
+	</filter>
+</phpunit>

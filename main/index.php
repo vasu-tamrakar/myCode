@@ -1,5 +1,4 @@
 <?php
-echo phpinfo(); die;
 include_once 'App.php';
 $user1 = new App();
 $user1->setUser('VA','',12);
