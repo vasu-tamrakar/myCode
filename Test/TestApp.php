@@ -27,7 +27,7 @@ class TestApp extends TestCase
         $this->assertIsInt($fn);
 
         $fn1 = $user->getage2();
-        $this->assertIsInt($fn1);
+        $this->assertTrue($fn1);
 
         $der = $user->getUser2();
         $this->assertIsString($der);

@@ -46,18 +46,10 @@ class App
         return $this->last_name;
     }
     public function getage(){
-        if($this->age > 10){
-            return $this->age;
-        }else{
-            return 'less than 10';
-        }
+        return ($this->age > 10)?$this->age:'less than 10';
     }
     public function getage2(){
-        if($this->age > 10){
-            return $this->age;
-        }else{
-            return 'less than 10';
-        }
+        return ($this->age > 10)?TRUE:FALSE;
     }
 
     public function setUser($fname=false,$lname=false,$age=false)
