@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <build time="Wed Jul 29 15:07:19 CEST 2020" phpunit="9.2.1" coverage="8.0.2">
+    <runtime name="PHP" version="7.3.19" url="https://secure.php.net/"/>
+    <driver name="xdebug" version="2.8.1"/>
+  </build>
+  <project source="C:\xampp\htdocs\myCode\main">
+    <tests>
+      <test name="TestApp::testgetUser" size="unknown" result="0" status="PASSED"/>
+    </tests>
+    <directory name="/">
+      <totals>
+        <lines total="63" comments="0" code="63" executable="18" executed="17" percent="94.44"/>
+        <methods count="9" tested="8" percent="88.89"/>
+        <functions count="0" tested="0" percent="0"/>
+        <classes count="1" tested="0" percent="0.00"/>
+        <traits count="0" tested="0" percent="0"/>
+      </totals>
+      <file name="App.php" href="App.php.xml">
+        <totals>
+          <lines total="63" comments="0" code="63" executable="18" executed="17" percent="94.44"/>
+          <methods count="9" tested="8" percent="88.89"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+      </file>
+    </directory>
+  </project>
+</phpunit>
