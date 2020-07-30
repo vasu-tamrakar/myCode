@@ -7,7 +7,9 @@ use PHPUnit\Framework\TestCase;
 class TestApp extends TestCase
 // class TestApp extends App
 {
-
+    /**
+     * @covers \App
+     */
     public function testgetUser()
     {
         $user = new App();
