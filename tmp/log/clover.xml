@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1596107193">
+  <project timestamp="1596107193">
+    <file name="C:\xampp\htdocs\myCode\main\App.php">
+      <class name="App" namespace="global">
+        <metrics complexity="20" methods="9" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="17" elements="27" coveredelements="25"/>
+      </class>
+      <line num="13" type="method" name="getUser" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="14" type="stmt" count="1"/>
+      <line num="16" type="method" name="getUser2" visibility="public" complexity="3" crap="3.33" count="1"/>
+      <line num="17" type="stmt" count="1"/>
+      <line num="18" type="stmt" count="1"/>
+      <line num="20" type="stmt" count="0"/>
+      <line num="27" type="method" name="getfirst_name" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="28" type="stmt" count="1"/>
+      <line num="30" type="method" name="getlast_name" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="31" type="stmt" count="1"/>
+      <line num="33" type="method" name="getage" visibility="public" complexity="2" crap="2" count="1"/>
+      <line num="34" type="stmt" count="1"/>
+      <line num="36" type="method" name="getage2" visibility="public" complexity="2" crap="2" count="1"/>
+      <line num="37" type="stmt" count="1"/>
+      <line num="40" type="method" name="setUser" visibility="public" complexity="4" crap="4" count="1"/>
+      <line num="42" type="stmt" count="1"/>
+      <line num="43" type="stmt" count="1"/>
+      <line num="44" type="stmt" count="1"/>
+      <line num="45" type="stmt" count="1"/>
+      <line num="49" type="method" name="setCar" visibility="public" complexity="3" crap="3" count="1"/>
+      <line num="51" type="stmt" count="1"/>
+      <line num="52" type="stmt" count="1"/>
+      <line num="53" type="stmt" count="1"/>
+      <line num="56" type="method" name="getCar" visibility="public" complexity="3" crap="3" count="1"/>
+      <line num="58" type="stmt" count="1"/>
+      <line num="59" type="stmt" count="1"/>
+      <line num="60" type="stmt" count="1"/>
+      <metrics loc="63" ncloc="63" classes="1" methods="9" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="17" elements="27" coveredelements="25"/>
+    </file>
+    <metrics files="1" loc="63" ncloc="63" classes="1" methods="9" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="17" elements="27" coveredelements="25"/>
+  </project>
+</coverage>
