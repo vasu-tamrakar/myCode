@@ -17,7 +17,7 @@
 		</whitelist>
 	</filter>
     <logging>
-        <log type="coverage-html" target="./report"
-             lowUpperBound="75" highLowerBound="95" />
+        <log type="coverage-html" target="./report" lowUpperBound="75" highLowerBound="95" />
+        <log type="coverage-xml" target="./report" lowUpperBound="75" highLowerBound="95" />
     </logging>
 </phpunit>
