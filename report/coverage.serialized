@@ -1,0 +1,107 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  'C:\\xampp\\htdocs\\myCode\\main\\App.php' => 
+  array (
+    14 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    15 => NULL,
+    17 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    18 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    20 => 
+    array (
+    ),
+    22 => NULL,
+    23 => NULL,
+    25 => NULL,
+    28 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    29 => NULL,
+    31 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    32 => NULL,
+    34 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    35 => NULL,
+    37 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    38 => NULL,
+    42 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    43 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    44 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    45 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    46 => NULL,
+    51 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    52 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    53 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    58 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    59 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    60 => 
+    array (
+      0 => 'TestApp::testgetUser',
+    ),
+    61 => NULL,
+  ),
+));
+$coverage->setTests(array (
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'TestApp::testgetUser' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  'C:\\xampp\\htdocs\\myCode\\main\\App.php' => true,
+));
+
+return $coverage;
