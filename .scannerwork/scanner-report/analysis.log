@@ -60,6 +60,7 @@ Project scanner properties:
   - sonar.scanner.app=ScannerCLI
   - sonar.scanner.appVersion=4.4.0.2170
   - sonar.sourceEncoding=windows-1252
+  - sonar.sources=./main
   - sonar.tests=./test
   - sonar.verbose=true
   - sonar.working.directory=C:\xampp\htdocs\myCode\.scannerwork

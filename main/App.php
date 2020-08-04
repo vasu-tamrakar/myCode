@@ -19,9 +19,6 @@ class App
         }else{
             return 'age less than 10';
         }
-        if($this->age >10){
-            return 'age grether than 10';
-        }
     }
 
     public function getfirst_name(){
