@@ -5,16 +5,18 @@
          convertNoticesToExceptions="true"
          convertWarningsToExceptions="true"
          processIsolation="false"
-         stopOnFailure="false">
+         stopOnFailure="false"
+         backupGlobals="false"
+         backupStaticAttributes="false">
     <testsuites>
         <testsuite name="Example">
-            <directory suffix=".php">Test</directory>
+            <directory suffix=".php">./Test</directory>
         </testsuite>
     </testsuites>
     
      <filter>
 		<whitelist processUncoveredFilesFromWhitelist="true">
-			<directory suffix=".php">main</directory>
+			<directory suffix=".php">./main</directory>
 		</whitelist>
 	</filter>
     
