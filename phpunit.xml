@@ -31,6 +31,7 @@
         <log type="coverage-html" target="/tmp/report" lowUpperBound="35"
             highLowerBound="70"/>
         <log type="coverage-clover" target="/tmp/log/clover.xml"/>
+        <log type="coverage-clover" target="/tmp/index.xml"/>
         <log type="coverage-php" target="/tmp/coverage.serialized"/>
         <log type="coverage-text" target="php://stdout" showUncoveredFiles="false"/>
         <log type="junit" target="/tmp/junit.xml"/>
