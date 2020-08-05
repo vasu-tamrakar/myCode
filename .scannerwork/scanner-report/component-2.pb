@@ -1,1 +1,1 @@
- 2phpX@hrmain/App.php
+ 2phpX=hrmain/App.php

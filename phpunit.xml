@@ -39,5 +39,7 @@
         <log type="testdox-text" target="/tmp/testdox.txt"/>
         
     </logging>
-    
+    <php>
+        <ini name="serialize_precision" value="14"/>
+    </php>
 </phpunit>
